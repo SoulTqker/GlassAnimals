@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Animals</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <a href="#contenu" class="texte-pour-lecteur">Aller au contenu principal</a>
+
+
+    <header>
+        <img src="img/menu.png" alt="Menu" class="burger">
+        <div class="header container">
+            <span class="texte-pour-lecteur">Glass Animals</span>
+            <div class="flex-center">
+                <a href="index.html" class="flex-center">
+                    <img src="img/banniere.png" alt="Banniere"/>
+                </a>
+            </div>
+            
+            <nav class="flex-center" aria-labelledby="menu-principal">
+                <h1 id="menu-principal" class="texte-pour-lecteur">Menu de navigation principal</h1>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#">Discographie</a></li>
+                    <li><a href="#">Évenements</a></li>
+                    <li><a href="#">Membres</a></li>
+                    <li><a class="current" href="formulaire.html">Formulaire</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main class="container">
+
+
+        <div class="formulaire">
+            <div class="titre"  id="formulaire">
+                <div>
+                    <img src="img/truc.png" alt="truc pour accrocher" >
+                    
+                </div>
+                
+            </div>
+            
+            
+
+            <form action="https://nrichard.profweb.ca/05b/tp/cible.php" method="get">
+                <h1 id="contenu">Commentaires</h1>
+                <div>
+                    <label>Appréciation</label>
+                    
+                        <fieldset class="flex-form">
+                            <legend>Radio Button</legend>
+                            <div class="flex-radio">
+                                <input type="radio" name="note" id="note-tb" value="Très bien" required>
+                                <label for="note-tb">Très bien</label>
+                            </div>
+                            <div class="flex-radio">
+                                <input type="radio" name="note" id="note-b" value="Bien" required>
+                                <label for="note-b">Bien</label>
+                            </div>
+                            <div class="flex-radio">
+                                <input type="radio" name="note" id="note-aa" value="A améliorer" required>
+                                <label for="note-aa">A améliorer</label>
+                            </div>
+                        </fieldset>
+                        
+                        
+                        
+                    
+                    
+                </div>
+
+                <div>
+                    <label for="commentaires">Commentaires</label>
+                    <div class="div-flex">
+                        <textarea name="commentaires" id="commentaires" required></textarea>
+                    </div>
+                    
+                </div>
+
+                <div class="flex-form flex-informations">
+                    <div class="form-nom-age">
+                        <div>
+                            <label for="nom">Nom</label>
+                            <div class="div-flex">
+                                <input type="text" name="nom" id="nom" placeholder="votre nom" required>
+                            </div>
+                            
+                        </div>
+                        <div>
+                            <label for="age">Tranche d'âge</label>
+                            <div>
+                                <select name="age" id="age" required>
+                                    <option value="" selected disabled>Selectionnez votre âge</option>
+                                    <option value="0-10">0 à 10 ans</option>
+                                    <option value="11-20">11 à 20 ans</option>
+                                    <option value="21-30">21 à 30 ans</option>
+                                    <option value="31-50">31 à 50 ans</option>
+                                    <option value="51+"> 51 ans et plus </option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+
+
+                    <label for="courriel">E-mail</label>
+                    <input type="email" placeholder="ex: myname@example.com" name="courriel" id="courriel" required>
+                </div>
+
+
+
+                <div class="form-button">
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Réinitialiser">
+                </div>
+            </form>
+
+            
+        </div>
+
+    </main>
+    <footer class="flex-center">
+
+        <p>raphaël grougnet ; copyright 2022</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
